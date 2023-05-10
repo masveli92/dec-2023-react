@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    background: whitesmoke;
+}
+.leftSide{
+    margin-left: 10px;
+    width: 50%;
+}
+.rightSide{
+    background: lightyellow;
+    padding-left: 10px;
+    width: 50%;
+}
