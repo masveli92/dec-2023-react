@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+}
+.left{
+    width: 35%;
+    padding: 10px;
+}
+.right{
+    width: 65%;
+    padding: 10px;
+}
+.center{
+    justify-content: center;
+}
