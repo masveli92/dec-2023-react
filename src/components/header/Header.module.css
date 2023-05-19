@@ -1,0 +1,17 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: burlywood ;
+    height: 100px;
+    align-items: center;
+}
+
+.btn{
+    height: 80%;
+    width: 25%;
+    background-color: saddlebrown;
+    color: black;
+    border-radius: 15%;
+    border: 1px whitesmoke solid;
+}
