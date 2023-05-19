@@ -1,7 +1,11 @@
+import {Component1, Component2, Header} from "./components";
+
 function App() {
   return (
     <div>
-      Learn React
+        <Header/>
+        <Component1/>
+        <Component2/>
     </div>
   );
 }
