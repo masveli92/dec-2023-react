@@ -11,6 +11,7 @@ const Users = () => {
     useEffect(()=> {
         userService.getAll().then(value => value.data).then(value => dispatch(userAction.setAll(value)))
     },[dispatch])
+
     return (
         <div>
             {users.map(user => <User key={user.id} user={user} />)}

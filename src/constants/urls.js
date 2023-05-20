@@ -1,5 +1,5 @@
 const jsonPlaceHolderApi = 'https://jsonplaceholder.typicode.com/'
-const carsApi = 'https://owu.linkpc.net/carsAPI/v1/doc'
+const carsApi = 'http://owu.linkpc.net/carsAPI/v1'
 
 const cars = '/cars'
 const urls ={
